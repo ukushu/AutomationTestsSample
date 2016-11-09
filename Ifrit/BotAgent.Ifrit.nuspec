@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Ifrit</id>
+    <version>0.5.0</version>
+    <title>Ifrit</title>
+    <authors>Andrew Vynnychenko</authors>
+	<!-- ... -->
+    <description>Framework-wrapper around Selenium</description>
+    <releaseNotes>
+      ...
+    </releaseNotes>
+    <copyright>Copyright by Andrew Vynnychenko ( UKS )  2015-2016</copyright>
+    <tags>Ifrit UKS</tags>
+    <dependencies>
+        <dependency id="HtmlAgilityPack" version="1.4.9.5" />
+        <dependency id="NLog" version="4.3.10" />
+        <dependency id="NLog.Config" version="4.3.10" />
+        <dependency id="NLog.Schema" version="4.3.10" />
+        <dependency id="PhantomJS" version="2.1.1" />
+        <dependency id="Selenium.Support" version="3.0.0" />
+        <dependency id="Selenium.WebDriver" version="3.0.0" />
+        <dependency id="Selenium.WebDriver.ChromeDriver" version="2.24.0" />
+        <dependency id="Selenium.WebDriver.IEDriver" version="3.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+  </files>
+</package>
