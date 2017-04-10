@@ -32,6 +32,7 @@ The grid would have two columns: 
 The grid footer should contain a toolbar with two buttons: “Add” and “Delete”. 
 “Add” button click should open a dialog window proposing to select/enter a letter to be added.
 The dialog window should contain validation. The letter would be inserted into the grid preserving grid sort order. “Add” button should be disabled if another letter addition is not possible. “Delete” button deletes selected letters from the grid.
+
 The tree should have context menu with two items: “Add”, “Delete”, doing the same actions as the grid corresponding buttons.
 
 ![alt tag](http://image.prntscr.com/image/f52f6b0ee9714a66bcddd235952a50b1.png)
