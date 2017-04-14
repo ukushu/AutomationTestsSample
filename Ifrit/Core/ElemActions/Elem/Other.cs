@@ -165,5 +165,12 @@
                 return string.Empty;
             }
         }
+
+        public void DragElementTo(ActionsBase dropToElement)
+        {
+            var elemEndPoint = dropToElement.GetIWebElement();
+                        
+            HierarhicalParent.WebActions.DragAndDrop(Element, elemEndPoint).Perform();
+        }
     }
 }

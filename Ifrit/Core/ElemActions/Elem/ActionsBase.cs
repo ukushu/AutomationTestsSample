@@ -30,6 +30,14 @@
         }
 
         /// <summary>
+        /// For internal needs
+        /// </summary>
+        public IWebElement GetIWebElement()
+        {
+            return Element;
+        }
+
+        /// <summary>
         /// Gets value of some specific attribute of html element
         /// </summary>
         /// <param name="atrName">attribute name</param>
@@ -41,6 +49,21 @@
             try
             {
                 attr = this.Element.GetAttribute(atrName);
+            }
+            catch (Exception)
+            {
+            }
+
+            return attr;
+        }
+
+        public string GetCssValue(string atrName)
+        {
+            string attr = string.Empty;
+
+            try
+            {
+                attr = Element.GetCssValue(atrName);
             }
             catch (Exception)
             {

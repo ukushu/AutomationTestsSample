@@ -28,7 +28,7 @@ namespace BotAgent.Ifrit.Core
         /// Actions builder.
         /// FOR INTERNAL USE ONLY.
         /// </summary>
-        public OpenQA.Selenium.Interactions.Actions WebActions;
+        public Actions WebActions;
 
         public IfrPage(IWebDriver instance, IfrBrowser parent)
         {

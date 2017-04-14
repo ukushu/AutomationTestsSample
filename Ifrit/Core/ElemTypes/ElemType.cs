@@ -8,6 +8,11 @@
         private IfrLog _log;
         private IWebElement _element;
 
+        public IWebElement GetIWebElement()
+        {
+            return _element;
+        }
+
         /// <summary>
         /// Returns page where this element is located
         /// </summary>
